@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 5%, 4%);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+img {
+    max-width: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial-component {
+    background-color: white;
+    color: black;
+    max-width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.testimonial h3 {
+    margin: 10px 0 5px;
+}
+
+.testimonial p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.testimonial div {
+    margin-top: 10px;
+    font-size: 18px;
+}
